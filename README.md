@@ -8,7 +8,7 @@ Inspired by code from a friend playing with some AI LLMs.  The page generated he
 
 To run the script edit the orig-data.json then run:
 
-```
+```bash
 # Get scryfall data setup
 mkdir cli/scryfall-data
 wget https://data.scryfall.io/default-cards/default-cards-20250402215416.json -P cli/scryfall-data
