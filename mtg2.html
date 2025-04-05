@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTG Set Combinations Rolodex (2020-2024)</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #e9ebee; /* Slightly different light background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            color: #1d2129; /* Darker text */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Rolodex container styling */
+        .rolodex-container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            padding: 25px 30px;
+            text-align: center;
+            max-width: 700px; /* Wider container for two cards */
+            width: 100%;
+            border: 1px solid #dddfe2; /* Light border */
+            box-sizing: border-box;
+        }
+
+        /* Title styling */
+        h1 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #3b5998; /* Facebook-like blue */
+            font-size: 1.7em;
+            font-weight: 600;
+            border-bottom: 1px solid #dddfe2;
+            padding-bottom: 15px;
+        }
+
+        /* Area displaying the combination */
+        .combination-display {
+            margin-bottom: 25px;
+            min-height: 520px; /* Adjusted height for content */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; /* Align content to top */
+            background-color: #f5f6f7; /* Very light grey */
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: inset 0 0 8px rgba(0,0,0,0.04);
+            box-sizing: border-box;
+        }
+
+        /* Set name styling */
+        .set-name-display {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #4b4f56;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        /* Container for the two cards */
+        .combo-cards {
+            display: flex;
+            justify-content: space-around; /* Space out cards */
+            align-items: flex-start; /* Align items to top */
+            width: 100%;
+            gap: 15px; /* Gap between cards */
+            margin-bottom: 15px;
+        }
+
+        /* Styling for each card item (image + name) */
+        .card-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            max-width: 48%; /* Limit width to fit side-by-side */
+        }
+
+        /* Styling for the combo card images */
+        .combo-card-image {
+            max-width: 100%; /* Image fits its container */
+            height: auto; /* Maintain aspect ratio */
+            max-height: 300px; /* Limit image height */
+            border-radius: 8px; /* Slightly rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            margin-bottom: 8px;
+            border: 1px solid #ccc;
+            background-color: #cccccc; /* Placeholder background */
+        }
+
+        /* Card name styling */
+        .card-name {
+            font-size: 0.9em;
+            font-weight: 500;
+            color: #1d2129;
+            margin: 0;
+            min-height: 3em; /* Ensure space for two lines */
+        }
+
+        /* Synergy description styling */
+        .synergy-description {
+            font-size: 0.95em;
+            color: #4b4f56;
+            line-height: 1.5;
+            margin-top: 15px;
+            padding: 0 10px; /* Padding for readability */
+            text-align: left; /* Align text left for paragraphs */
+            width: 100%;
+        }
+
+        /* Navigation buttons container */
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        /* Navigation button styling */
+        .nav-button {
+            background-color: #4267b2; /* Button blue */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .nav-button:hover {
+            background-color: #365899; /* Darker blue on hover */
+        }
+
+        .nav-button:active {
+             transform: translateY(1px);
+             box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+        }
+
+        /* Disclaimer styling */
+        .disclaimer {
+            font-size: 0.75em;
+            color: #8a8d91; /* Lighter grey */
+            margin-top: 25px;
+            font-style: italic;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 650px) {
+            .rolodex-container {
+                padding: 20px 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            .set-name-display {
+                font-size: 1.1em;
+            }
+            .combination-display {
+                min-height: auto; /* Allow height to adjust */
+                padding: 15px;
+            }
+            .combo-cards {
+                flex-direction: column; /* Stack cards vertically */
+                align-items: center; /* Center stacked cards */
+                gap: 20px;
+            }
+            .card-item {
+                max-width: 80%; /* Allow cards to take more width when stacked */
+            }
+            .combo-card-image {
+                max-height: 350px; /* Allow larger images when stacked */
+            }
+             .card-name {
+                min-height: auto; /* Adjust height */
+            }
+            .synergy-description {
+                font-size: 0.9em;
+                margin-top: 20px;
+            }
+            .nav-button {
+                padding: 8px 15px;
+                font-size: 0.9em;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="rolodex-container">
+        <h1>MTG Set Combinations Rolodex (2020-2024)</h1>
+
+        <div class="combination-display">
+            <h3 id="setNameDisplay">Set Name</h3>
+            <div class="combo-cards">
+                <div class="card-item">
+                    <img src="" alt="Card 1" id="cardImage1" class="combo-card-image"
+                         onerror="this.onerror=null; this.src='https://placehold.co/245x342/cccccc/333333?text=Img1+Fail';">
+                    <p id="cardName1" class="card-name">Card 1 Name</p>
+                </div>
+                <div class="card-item">
+                    <img src="" alt="Card 2" id="cardImage2" class="combo-card-image"
+                         onerror="this.onerror=null; this.src='https://placehold.co/245x342/cccccc/333333?text=Img2+Fail';">
+                    <p id="cardName2" class="card-name">Card 2 Name</p>
+                </div>
+            </div>
+            <p id="synergyDescriptionDisplay" class="synergy-description">Synergy description goes here.</p>
+        </div>
+
+        <div class="navigation">
+            <button id="prevBtn" class="nav-button">Previous</button>
+            <button id="nextBtn" class="nav-button">Next</button>
+        </div>
+
+        <p class="disclaimer">
+            Note: "Best" combinations are subjective, often reflecting key Limited archetypes or notable interactions within the set.
+        </p>
+    </div>
+
+    <script defer>
+        (async function init(){
+            // Array holding the combination data for each set
+            const response = await fetch('card-data.json')
+            const combinationData = await response.json()
+
+
+            // Get references to HTML elements
+            const setNameElement = document.getElementById('setNameDisplay');
+            const cardImage1Element = document.getElementById('cardImage1');
+            const cardName1Element = document.getElementById('cardName1');
+            const cardImage2Element = document.getElementById('cardImage2');
+            const cardName2Element = document.getElementById('cardName2');
+            const synergyDescElement = document.getElementById('synergyDescriptionDisplay');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+
+            let currentIndex = 0; // Index of the currently displayed combination
+
+            // Function to display the combination at a given index
+            function displayCombination(index) {
+                if (index < 0 || index >= combinationData.length) {
+                    console.error("Invalid combination index:", index);
+                    return;
+                }
+
+                const combo = combinationData[index];
+
+                // Update the elements
+                setNameElement.textContent = combo.setName;
+                cardImage1Element.src = combo.card1ImageUrl;
+                cardImage1Element.alt = combo.card1Name;
+                cardName1Element.textContent = combo.card1Name;
+
+                cardImage2Element.src = combo.card2ImageUrl;
+                cardImage2Element.alt = combo.card2Name;
+                cardName2Element.textContent = combo.card2Name;
+
+                synergyDescElement.textContent = combo.synergyDescription;
+            }
+
+            // Event listener for the "Next" button
+            nextBtn.addEventListener('click', () => {
+                currentIndex++;
+                if (currentIndex >= combinationData.length) {
+                    currentIndex = 0; // Wrap around to the start
+                }
+                displayCombination(currentIndex);
+            });
+
+            // Event listener for the "Previous" button
+            prevBtn.addEventListener('click', () => {
+                currentIndex--;
+                if (currentIndex < 0) {
+                    currentIndex = combinationData.length - 1; // Wrap around to the end
+                }
+                displayCombination(currentIndex);
+            });
+
+            // Initial display load
+            displayCombination(currentIndex);
+        })()
+        
+
+    </script>
+
+</body>
+</html>

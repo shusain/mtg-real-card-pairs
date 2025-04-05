@@ -1,0 +1,178 @@
+[
+    {
+        "setName": "Theros Beyond Death (THB)",
+        "card1Name": "Polukranos, Unchained",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/7/8/783a21b9-dea2-411c-aeb4-eaf885a618a3.jpg?1581630427",
+        "card2Name": "Mire Triton",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/3/f/3f8427d3-4d9e-48c9-838b-239fd1357d95.jpg?1581479874",
+        "synergyDescription": "Escape Fuel: `Mire Triton` fills the graveyard with cards, providing the necessary fuel for `Polukranos`'s powerful Escape ability to return it to the battlefield multiple times."
+    },
+    {
+        "setName": "Ikoria: Lair of Behemoths (IKO)",
+        "card1Name": "Flourishing Fox",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/5/d/5d0b6981-0fd4-4f58-bba4-a7efd4c633d0.jpg?1611516057",
+        "card2Name": "Drannith Stinger",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/6/1/612ee4be-e7a2-423c-a37c-7c6ca97f630e.jpg?1591227149",
+        "synergyDescription": "Cycling Payoffs: The `Flourishing Fox` grows larger with each cycled card, while `Drannith Stinger` deals direct damage, forming the core of a potent cycling-focused strategy."
+    },
+    {
+        "setName": "Core Set 2021 (M21)",
+        "card1Name": "Vito, Thorn of the Dusk Rose",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/0/e/0e2c92c5-5f6f-4512-ae51-428b08a34fa2.jpg?1737998424",
+        "card2Name": "Griffin Aerie",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/2/a/2a64a64f-55d2-41e2-aa33-31daba8344c8.jpg?1693263852",
+        "synergyDescription": "Lifegain Engine: Gaining 3+ life triggers `Griffin Aerie` to create flyers, while `Vito` converts any lifegain into damage against the opponent, creating synergistic value."
+    },
+    {
+        "setName": "Zendikar Rising (ZNR)",
+        "card1Name": "Skyclave Geopede",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/4/9/490f3d74-6144-4cbc-80ed-37cfcdbd159a.jpg?1604202592",
+        "card2Name": "Roiling Regrowth",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/5/f/5fa531b2-ccd5-489b-9edf-4cab01aca7fd.jpg?1611516120",
+        "synergyDescription": "Aggressive Landfall: `Skyclave Geopede` benefits immensely from lands entering the battlefield. `Roiling Regrowth` triggers its Landfall ability twice instantly for explosive power."
+    },
+    {
+        "setName": "Kaldheim (KHM)",
+        "card1Name": "Cosmos Charger",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/0/9/099e0c0c-d44d-48d6-b798-7acb95a5b565.jpg?1628382906",
+        "card2Name": "Behold the Multiverse",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/2/7/27855a38-a682-4f97-ad22-ac625e86faec.jpg?1631046745",
+        "synergyDescription": "Foretell Advantage: `Cosmos Charger` makes Foretelling cheaper and allows casting Foretold spells at instant speed, greatly enhancing the flexibility and power of cards like `Behold the Multiverse`."
+    },
+    {
+        "setName": "Strixhaven: School of Mages (STX)",
+        "card1Name": "Leonin Lightscribe",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/0/7/07102abc-1021-4c09-8afd-97745571b224.jpg?1681079943",
+        "card2Name": "Guiding Voice",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/d/6/d6fb3163-12ca-4a7f-a0c7-b8ddfc9408a0.jpg?1624589500",
+        "synergyDescription": "Magecraft Aggro: Casting cheap instants like `Guiding Voice` triggers `Leonin Lightscribe`'s Magecraft, boosting your entire team. `Guiding Voice` also provides value via the Learn mechanic."
+    },
+    {
+        "setName": "Strixhaven: School of Mages (STX)",
+        "card1Name": "Leonin Lightscribe",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/0/7/07102abc-1021-4c09-8afd-97745571b224.jpg?1681079943",
+        "card2Name": "Guiding Voice",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/d/6/d6fb3163-12ca-4a7f-a0c7-b8ddfc9408a0.jpg?1624589500",
+        "synergyDescription": "Magecraft Aggro: Casting cheap instants like `Guiding Voice` triggers `Leonin Lightscribe`'s Magecraft, boosting your entire team. `Guiding Voice` also provides value via the Learn mechanic."
+    },
+    {
+        "setName": "Adventures in the Forgotten Realms (AFR)",
+        "card1Name": "Nadaar, Selfless Paladin",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/1/5/15a2853d-3ac0-4839-afd4-8cb3882c5489.jpg?1627953398",
+        "card2Name": "Veteran Dungeoneer",
+        "card2ImageUrl": "null",
+        "synergyDescription": "Venture Engine: `Nadaar` provides consistent Venture triggers and dungeon completion payoffs. `Veteran Dungeoneer` helps Venture further, accelerating progress through dungeons for value."
+    },
+    {
+        "setName": "Innistrad: Midnight Hunt (MID)",
+        "card1Name": "Tovolar, Dire Overlord",
+        "card1ImageUrl": "null",
+        "card2Name": "Reckless Stormseeker",
+        "card2ImageUrl": "null",
+        "synergyDescription": "Werewolf Aggro: `Tovolar` acts as a lord, card advantage engine, and forces Night. `Reckless Stormseeker` provides haste and power, helping maintain pressure and trigger Tovolar's abilities."
+    },
+    {
+        "setName": "Innistrad: Crimson Vow (VOW)",
+        "card1Name": "Anje, Maid of Dishonor",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/0/7/0753c3b5-6127-4e42-a029-b165d5f8170c.jpg?1712317386",
+        "card2Name": "Voldaren Epicure",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/0/7/0753c3b5-6127-4e42-a029-b165d5f8170c.jpg?1712317386",
+        "synergyDescription": "Blood Token Synergy: `Voldaren Epicure` easily creates a Blood token on ETB. `Anje` uses Blood tokens to fuel her powerful activated ability, draining the opponent effectively."
+    },
+    {
+        "setName": "Kamigawa: Neon Dynasty (NEO)",
+        "card1Name": "Network Disruptor",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/5/a/5a37719a-2a87-4870-8f25-12544ca2f2cf.jpg?1654566883",
+        "card2Name": "Moon-Circuit Hacker",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/3/8/38f66d0c-5d03-449f-a056-b97e2ed6a3a1.jpg?1681159092",
+        "synergyDescription": "Ninjutsu Value: The cheap, evasive `Network Disruptor` enables activating `Moon-Circuit Hacker`'s Ninjutsu ability reliably, allowing for consistent card draw and board presence."
+    },
+    {
+        "setName": "Streets of New Capenna (SNC)",
+        "card1Name": "Raffine, Scheming Seer",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/0/c/0cb5087f-32cc-4d36-9da9-083c0336d89a.jpg?1675618393",
+        "card2Name": "Hypnotic Grifter",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/6/9/69af30b3-d4b0-453a-891f-4506e06b5e14.jpg?1664410270",
+        "synergyDescription": "Connive Powerhouse: Attacking with multiple creatures like `Hypnotic Grifter` maximizes `Raffine`'s Connive trigger, allowing for significant hand filtering and counter placement."
+    },
+    {
+        "setName": "Dominaria United (DMU)",
+        "card1Name": "Nishoba Brawler",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/2/e/2ef6cb5f-0ab3-4652-9b39-c2cbf6d693d5.jpg?1673307761",
+        "card2Name": "Herd Migration",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/0/1/01e095bd-091c-442f-aa21-0826c40acb6c.jpg?1675456043",
+        "synergyDescription": "Domain Matters: `Nishoba Brawler`'s power scales with Domain (basic land types). `Herd Migration` helps find lands early and provides a huge Domain payoff later, synergizing at multiple points."
+    },
+    {
+        "setName": "The Brothers' War (BRO)",
+        "card1Name": "Mishra, Claimed by Gix",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/0/2/0220c1e9-07bc-44f0-b39e-ca345ec4ea28.jpg?1739655313",
+        "card2Name": "Phyrexian Dragon Engine",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/0/2/0220c1e9-07bc-44f0-b39e-ca345ec4ea28.jpg?1739655313",
+        "synergyDescription": "Meld into Power: Separately strong, these two cards Meld into the devastating `Mishra, Lost to Phyrexia` when Mishra attacks while you control the Dragon Engine, dominating the board."
+    },
+    {
+        "setName": "Phyrexia: All Will Be One (ONE)",
+        "card1Name": "Bloated Contaminator",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/1/3/131cbcca-f9a9-43cb-a0c8-c95e246f6237.jpg?1675700569",
+        "card2Name": "Venerated Rotpriest",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/2/9/29ea9176-16cf-4064-8c69-071a520a110b.jpg?1675957422",
+        "synergyDescription": "Toxic Proliferation: `Venerated Rotpriest` adds poison counters defensively, while `Bloated Contaminator` adds them offensively and Proliferates on damage, rapidly advancing the poison clock."
+    },
+    {
+        "setName": "March of the Machine (MOM)",
+        "card1Name": "Invasion of Zendikar",
+        "card1ImageUrl": "null",
+        "card2Name": "Rampaging Geoderm",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/a/9/a973e70f-9e3e-47a3-94b9-7bb8a198a438.jpg?1682205662",
+        "synergyDescription": "Battle Flipping: `Invasion of Zendikar` provides ramp. High-power tramplers like `Rampaging Geoderm` efficiently attack and defeat the Battle, transforming it into the powerful land creature."
+    },
+    {
+        "setName": "March of the Machine: The Aftermath (MAT)",
+        "card1Name": "Training Grounds",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/2/2/22299956-82c6-46dd-ac7d-b56146ab7ed8.jpg?1684342160",
+        "card2Name": "Ob Nixilis, Captive Kingpin",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/7/f/7f613db0-3303-4d54-a060-1bd8b37a208f.jpg?1684342015",
+        "synergyDescription": "Activated Ability Engine: `Training Grounds` makes activated abilities cheaper, enabling powerful but costly abilities on cards like `Ob Nixilis` to be used much more frequently for value."
+    },
+    {
+        "setName": "Wilds of Eldraine (WOE)",
+        "card1Name": "Beseech the Mirror",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/1/8/18c59776-e1f1-4197-a128-db1d603f56b7.jpg?1692937498",
+        "card2Name": "Up the Beanstalk",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/2/d/2d5e991f-23b2-4db0-a452-7755125b1fd2.jpg?1710276532",
+        "synergyDescription": "Bargain Tutoring: `Up the Beanstalk` provides card advantage and serves as cheap fodder for `Beseech the Mirror`'s Bargain cost, allowing you to tutor and cast a powerful spell for free."
+    },
+    {
+        "setName": "Lost Caverns of Ixalan (LCI)",
+        "card1Name": "The Mycotyrant",
+        "card1ImageUrl": "null",
+        "card2Name": "Stalactite Stalker",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/4/b/4bdd31d0-4d90-4a8b-8b4d-f0b71f7db112.jpg?1702061160",
+        "synergyDescription": "Descend Growth: `Stalactite Stalker` enables Descend by milling yourself. This directly fuels `The Mycotyrant`, making its token generation and stats grow quickly as permanents hit the graveyard."
+    },
+    {
+        "setName": "Murders at Karlov Manor (MKM)",
+        "card1Name": "Vannifar, Evolved Enigma",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/2/4/241b3b6d-a25f-4a43-b5d6-1d1079e7e498.jpg?1705432997",
+        "card2Name": "Pyrotechnic Performer",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/0/f/0fa5671b-2651-4944-a50a-c768ec70229e.jpg?1706241909",
+        "synergyDescription": "Disguise/Cloak Value: `Vannifar` puts cards face-down (Cloak). `Pyrotechnic Performer` deals damage when any face-down creature is turned up, adding extra value to revealing Cloaked or Disguised creatures."
+    },
+    {
+        "setName": "Outlaws of Thunder Junction (OTJ)",
+        "card1Name": "Gisa, the Hellraiser",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/0/4/041ae2db-788d-4d93-adcb-735359b3ff44.jpg?1714001453",
+        "card2Name": "Make Your Own Luck",
+        "card2ImageUrl": "https://cards.scryfall.io/normal/front/0/5/0557b0a3-2b48-408f-a508-9f4da2ab1cd1.jpg?1712356151",
+        "synergyDescription": "Committing Crimes Payoff: Casting spells like `Make Your Own Luck` targets an opponent's permanent, Committing a Crime. This triggers `Gisa` to create zombie tokens, building a board while interacting."
+    },
+    {
+        "setName": "Modern Horizons 3 (MH3)",
+        "card1Name": "Tune the Narrative",
+        "card1ImageUrl": "https://cards.scryfall.io/normal/front/1/c/1c516212-ad39-4396-8e05-ae57f100309f.jpg?1717192446",
+        "card2Name": "Chthonian Nightmare",
+        "card2ImageUrl": "null",
+        "synergyDescription": "Energy Engine: `Tune the Narrative` provides efficient Energy generation. `Chthonian Nightmare` uses that Energy as a powerful, repeatable reanimation effect for graveyard strategies."
+    }
+]
