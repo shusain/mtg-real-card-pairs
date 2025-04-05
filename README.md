@@ -9,6 +9,12 @@ Inspired by code from a friend playing with some AI LLMs.  The page generated he
 To run the script edit the orig-data.json then run:
 
 ```
+# Get scryfall data setup
+mkdir cli/scryfall-data
+wget https://data.scryfall.io/default-cards/default-cards-20250402215416.json -P cli/scryfall-data
+
+# Edit the cli/orig-data.json for card names you want to look-up images for then run:
+
 npm install --prefix cli                  # Install script dependencies
 npm start --prefix cli > card-data.json   # Write the new image paths out
 npx http-server                           # Run a web server temporarily in the dev folder
